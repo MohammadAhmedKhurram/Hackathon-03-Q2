@@ -28,8 +28,9 @@ export default function Wishlist() {
 
         <div className="flex justify-center flex-wrap gap-7 lg:gap-16 mt-12">
           {wishlist.length > 0 ? (
-            wishlist.map((product: any) => (
+            wishlist.map((product: any, index) => (
               <WishlistCardComp
+                key={index}
                 image={
                   product.image
                     ? urlFor(product.image).url()

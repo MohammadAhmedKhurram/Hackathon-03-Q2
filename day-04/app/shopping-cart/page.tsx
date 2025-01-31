@@ -49,9 +49,9 @@ export default function ShoppingCart() {
           </div>
           <div className="mt-[48px]">
             {cart.length > 0 ? (
-              cart.map((product: any) => (
+              cart.map((product: any, index) => (
                 <Cart
-                  key={product.id}
+                  key={index}
                   name={product.name}
                   price={product.discountedPrice}
                   quantity={product.quantity}

@@ -45,10 +45,9 @@ export default async function Products() {
         </h1>
 
         <div className="flex justify-center flex-wrap gap-7 lg:gap-16 mt-12">
-          {trendingProducts.map((product: any) => (
-            <Link href={`/products/${product.name}`}>
+          {trendingProducts.map((product: any,) => (
+            <Link key={product.name} href={`/products/${product.name}`}>
               <TrendingProductsCardComp
-                key={product.name}
                 image={
                   product.image
                     ? urlFor(product.image).url()
@@ -66,10 +65,9 @@ export default async function Products() {
           Top Category
         </h1>
         <div className="flex justify-center flex-wrap gap-7 lg:gap-16 mt-12">
-          {topCategoryProducts.map((product: any) => (
-            <Link href={`/products/${product.name}`}>
+          {topCategoryProducts.map((product: any, ) => (
+            <Link key={product.name} href={`/products/${product.name}`}>
               <TopCategotiesCard
-                key={product.name}
                 image={
                   product.image
                     ? urlFor(product.image).url()
@@ -87,10 +85,9 @@ export default async function Products() {
           Latest Products
         </h1>
         <div className="flex justify-center flex-wrap gap-7 lg:gap-16 mt-12">
-          {latestProducts.map((product: any) => (
-            <Link href={`/products/${product.name}`}>
+          {latestProducts.map((product: any, ) => (
+            <Link key={product.name} href={`/products/${product.name}`}>
               <SecondCardComponent
-                key={product.name}
                 image={
                   product.image
                     ? urlFor(product.image).url()
@@ -108,10 +105,9 @@ export default async function Products() {
           Featured Products
         </h1>
         <div className="flex justify-center flex-wrap gap-7 lg:gap-16 mt-12">
-          {featuredProducts.map((product: any, index) => (
-            <Link href={`/products/${product.name}`}>
+          {featuredProducts.map((product: any, ) => (
+            <Link key={product.name} href={`/products/${product.name}`}>
               <CardComponent
-                key={index}
                 image={
                   product.image
                     ? urlFor(product.image).url()
