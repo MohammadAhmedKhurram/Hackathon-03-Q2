@@ -1,9 +1,8 @@
 import React from "react";
 import { wishlistProps } from "../types/cardcomptypes";
 import { useAppContext } from "@/context";
-import { RiDeleteBin6Line } from "react-icons/ri";
 
-const wishlistCardComp = (props: wishlistProps) => {
+const WishlistCardComp = (props: wishlistProps) => {
   const { addToCart } = useAppContext();
 
   const handleAddToCart = () => {
@@ -67,4 +66,4 @@ const wishlistCardComp = (props: wishlistProps) => {
   );
 };
 
-export default wishlistCardComp;
+export default WishlistCardComp;
