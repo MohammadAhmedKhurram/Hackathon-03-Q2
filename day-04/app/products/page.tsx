@@ -108,10 +108,10 @@ export default async function Products() {
           Featured Products
         </h1>
         <div className="flex justify-center flex-wrap gap-7 lg:gap-16 mt-12">
-          {featuredProducts.map((product: any) => (
+          {featuredProducts.map((product: any, index) => (
             <Link href={`/products/${product.name}`}>
               <CardComponent
-                key={product.name}
+                key={index}
                 image={
                   product.image
                     ? urlFor(product.image).url()
