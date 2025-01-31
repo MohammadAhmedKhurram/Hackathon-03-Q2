@@ -3,3 +3,10 @@
 @tailwind utilities;
 
 
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/Lato') format('woff2'),
+    font-weight: ['300', '400', '700'];
+    font-style: normal;
+  }
+  

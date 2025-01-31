@@ -8,6 +8,7 @@ import { Josefin_Sans } from "next/font/google";
 const josefinSans = Josefin_Sans({
   subsets: ["latin"],
   weight: ["100", "200", "300", "500", "600", "700"],
+  display: "swap",
 });
 
 export default function RootLayout({

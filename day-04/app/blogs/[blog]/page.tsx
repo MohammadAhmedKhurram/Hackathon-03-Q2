@@ -1,13 +1,15 @@
 import Banner from "@/app/components/Banner";
 import OfferProductBlogSecCard from "@/app/components/OfferProductBlogSecCard";
 import RecentPostCardBlog from "@/app/components/RecentPostBlogCard";
-import { Lato } from "next/font/google";
 import { CiSearch } from "react-icons/ci";
 import { FaPenNib, FaRegCalendarAlt } from "react-icons/fa";
+import { Lato } from "next/font/google";
+
 
 const lato = Lato({
   subsets: ["latin"],
   weight: ["100", "300", "400", "700", "900"],
+  display: "swap",
 });
 
 export default function Blog({ params }: { params: { blog: string } }) {

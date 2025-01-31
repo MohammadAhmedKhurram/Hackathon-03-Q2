@@ -7,6 +7,7 @@ import { urlFor } from "@/sanity/lib/image";
 const lato = Lato({
   subsets: ["latin"],
   weight: ["100", "300", "400", "700", "900"],
+  display: "swap",
 });
 
 const getData = async () => {
