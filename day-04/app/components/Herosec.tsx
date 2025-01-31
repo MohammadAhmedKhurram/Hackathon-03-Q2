@@ -16,9 +16,10 @@ const getData = async () => {
   return res;
 };
 
-export default async function Herosec() {
-  const HeroImage = await getData();
-  console.log("HeroImage>>>", HeroImage);
+const HeroImage = await getData();
+
+export default function Herosec() {
+  
   const heroImage = HeroImage[0]?.image;
 
   return (

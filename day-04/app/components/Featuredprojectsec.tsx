@@ -10,8 +10,10 @@ const getData = async () => {
   return res;
 };
 
-export default async function Featuredproductssec() {
-  const FeaturedProducts = await getData();
+const FeaturedProducts = await getData();
+
+
+export default function Featuredproductssec() {
   return (
     <div className="">
       <h1 className="text-[30px] 2xl:text-[42px] flex font-bold justify-center mt-10 lg:mt-20 leading-[49.22px] text-left underline-offset-[0.1em] text-[#151875]">

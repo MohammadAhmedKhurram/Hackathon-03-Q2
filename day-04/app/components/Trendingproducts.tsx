@@ -15,8 +15,10 @@ const getData = async () => {
   );
   return res;
 };
-export default async function TrendingProductsSec() {
-  const products = await getData();
+
+const products = await getData();
+
+export default function TrendingProductsSec() {
   return (
     <div>
       {/* Heading */}

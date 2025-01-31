@@ -9,8 +9,9 @@ const getData = async () => {
   return res;
 };
 
-export default async function LatestProductSec() {
-  const LatestProducts = await getData();
+const LatestProducts = await getData();
+
+export default function LatestProductSec() {
   return (
     <div>
       <div className="">

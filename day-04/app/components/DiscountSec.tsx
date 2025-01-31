@@ -16,8 +16,9 @@ const getData = async () => {
   return res;
 };
 
-export default async function DiscountSec() {
-  const DiscountSecImage = await getData();
+const DiscountSecImage = await getData();
+
+export default function DiscountSec() {
   return (
     <div className="overflow-hidden ml-2 md:ml-[50px] md:mr-[50px] xl:ml-[200px] xl:mr-[200px] 2xl:ml-[375px] 2xl:mr-[375px] mt-16 lg:mt-24">
       <h1 className="text-[30px] xl:text-[42px] font-bold flex justify-center leading-[49.22px] text-left underline-offset-[0.1em] text-[#151875]">

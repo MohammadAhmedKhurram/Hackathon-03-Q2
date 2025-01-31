@@ -15,8 +15,9 @@ const getData = async () => {
   return res;
 };
 
-export default async function TopCategotySec() {
-  const products = await getData();
+const products = await getData();
+
+export default function TopCategotySec() {
   return (
     <div className="mt-16 lg:mt-24 xl:mt-40">
       <h1 className="text-[30px] xl:text-[42px] flex font-bold justify-center leading-[49.22px] text-left underline-offset-[0.1em] text-[#151875]">

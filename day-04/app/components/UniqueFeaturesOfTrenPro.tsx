@@ -18,8 +18,10 @@ const getData = async () => {
   return res;
 };
 
-export default async function UniqueFeatureOfTrenPro() {
-  const uniqueFeatureOfTrendProImage = await getData();
+const uniqueFeatureOfTrendProImage = await getData();
+
+
+export default  function UniqueFeatureOfTrenPro() {
   const image = uniqueFeatureOfTrendProImage[0]?.image;
   return (
     <div className="overflow-hidden relative h-[579px] pl-2 md:pl-[50px] md:pr-[50px] xl:pl-[200px] xl:pr-[200px] 2xl:pl-[371px] 2xl:pr-[371px] bg-[#F1F0FF] flex justify-center lg:justify-start">
