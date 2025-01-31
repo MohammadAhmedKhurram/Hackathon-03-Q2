@@ -27,6 +27,7 @@ export default async function Featuredproductssec() {
             price: string | number;
           }) => (
             <CardComponent
+            key={product.name}
               image={
                 product.image
                   ? urlFor(product.image).url()

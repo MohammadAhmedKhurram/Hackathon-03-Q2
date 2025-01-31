@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { RiMenu3Line, RiCloseLine, RiArrowDropDownLine } from "react-icons/ri";
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { CiSearch } from "react-icons/ci";
 
 export default function Navbar() {
