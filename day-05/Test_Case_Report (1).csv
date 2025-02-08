@@ -1,0 +1,23 @@
+Test Case ID,Test Scenario,Steps to Execute,Expected Result,Status
+HP-001,Check UI elements,Open home page,All sections load properly,Pass
+HP-002,Verify navigation links,Click on navigation links,Redirects to correct pages,Pass
+HP-003,Check responsiveness,Resize window / test on mobile,Page adjusts properly,Pass
+AB-001,Check UI elements,Open About page,Page loads with correct info,Pass
+AB-002,Verify navigation,Click navbar links,Navigates correctly,Pass
+CT-001,Check form UI,Open Contact page,Form fields appear correctly,Pass
+CT-002,Validate responsiveness,Test on mobile,UI adjusts properly,Pass
+BL-001,Verify blog list loads,Open blog page,Blog posts display correctly,Pass
+BL-002,Check navigation,Click blog post,Redirects to correct post,Pass
+DB-001,Open a blog post,Click a post,Displays correct blog details,Pass
+DB-002,Verify URL format,Check address bar,URL matches blog post ID,Pass
+PR-001,Check product list,Open products page,Displays all products correctly,Pass
+DP-001,Open a product,Click a product,Displays correct product details,Pass
+DP-002,Check URL format,Check address bar,URL matches product name,Pass
+CR-001,Add product to cart,Select product & add,Product appears in cart,Pass
+CR-002,Update quantity,Change quantity in cart,Updates total price correctly,Pass
+CR-003,Clear cart,Click ‘Clear Cart’,Cart is emptied,Pass
+WL-001,Add product to wishlist,Select product & add,Product appears in wishlist,Pass
+WL-002,Update quantity,Change quantity in wishlist,Updates wishlist correctly,Pass
+WL-003,Clear wishlist,Click ‘Clear Wishlist’,Wishlist is emptied,Pass
+LG-001,Check form UI,Open login page,Fields appear correctly,Pass
+LG-002,Validate responsiveness,Test on mobile,UI adjusts properly,Pass
