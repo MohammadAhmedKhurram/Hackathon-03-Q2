@@ -1,6 +1,3 @@
-import "swiper/css";
-import "swiper/css/navigation";
-
 import { client } from "@/sanity/lib/client";
 import TopCategotiesCard from "../components/TopCategoriesCard";
 import { urlFor } from "@/sanity/lib/image";

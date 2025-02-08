@@ -8,8 +8,9 @@ import TopCategotySec from "./components/TopCategories";
 import TrendingProductsSec from "./components/Trendingproducts";
 import UniqueFeatureOfTrenPro from "./components/UniqueFeaturesOfTrenPro";
 import WhatShoppixOffer from "./components/Whatshopixoffer";
+import Image from "next/image";
 
-export default function Home() {
+export default async function Home() {
   return (
     <>
       <Herosec />
@@ -22,10 +23,11 @@ export default function Home() {
       <TopCategotySec />
       <div className="mt-10 lg:mt-20">
         <div className="relative w-full h-48 md:h-[300px] xl:h-[462px]">
-          <img
+          <Image
             src="/Rectangle 102.png"
             alt="--"
-            className="w-full h-full object-cover"
+            layout="fill"
+            objectFit="cover"
           />
 
           <div className="absolute inset-0 flex flex-col items-center justify-center">
@@ -51,9 +53,16 @@ export default function Home() {
       </div>
 
       <div className="flex justify-center items-center mt-5 md:mt-10 lg:mt-20 w-[100%] h-[100px]">
-        <img src="/image 1174.png" alt="--" className="w-[904px] h-[93px]" />
+        <Image
+          src="/image 1174.png"
+          width={904}
+          height={93}
+          alt="image"
+        ></Image>
       </div>
       <BlogsSec />
+
     </>
+    
   );
 }

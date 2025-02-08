@@ -1,5 +1,5 @@
 {
-  "name": "hackathon02",
+  "name": "hackathon03",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.10.4",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.70.0",
     "next": "14.2.12",
@@ -17,8 +18,7 @@
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
     "sanity": "^3.70.0",
-    "styled-components": "^6.1.14",
-    "swiper": "^11.2.1"
+    "styled-components": "^6.1.14"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -320,7 +320,7 @@ export default function Blog({ params }: { params: { blog: string } }) {
         </div>
       </div>
 
-      <div className="w-full flex justify-center mt-10 mt-[71px] mb-10 lg:mb-20">
+      <div className="w-full flex justify-center mt-10 lg:mt-[71px] mb-10 lg:mb-20">
         <img src="/image 1174.png" alt="-" />
       </div>
     </div>

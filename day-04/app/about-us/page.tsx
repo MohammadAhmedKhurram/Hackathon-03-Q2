@@ -61,7 +61,7 @@ export default function AboutUs() {
             title="24/7 Support"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida."
           />
-      </div>
+        </div>
       </div>
 
       <div className="flex justify-center mt-8 lg:mt-20 items-center ">
